@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const UserContainer = styled.div`
   background-color: #ffffff;
@@ -23,4 +24,13 @@ export const UserTitle = styled.h3`
 
 export const UserText = styled.p`
   color: #9fa2b4;
+`
+
+export const LinkAdd = styled(Link)`
+  color: #ffffff;
+  font-weight: 500;
+
+  &:hover {
+    color: #ffffff;
+  }
 `

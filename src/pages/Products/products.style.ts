@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const Products = styled.div`
   background-color: #ffffff;
@@ -40,4 +41,20 @@ export const ProductsHeaderList = styled.div`
 export const ProductsTitleList = styled.h4`
   font-weight: 700;
   color: #252733;
+`
+export const LinkAdd = styled(Link)`
+  color: #ffffff;
+  font-weight: 500;
+
+  &:hover {
+    color: #ffffff;
+  }
+`
+
+export const ProductsImage = styled.img`
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background-color: #ffffff;
+  padding: 5px;
 `

@@ -10,7 +10,6 @@ export const PageWrapper = styled.div`
 export const Container = styled.div`
   min-width: 300px;
   width: 35%;
-  background-color: #ffffff;
   padding: 40px 60px;
 `
 

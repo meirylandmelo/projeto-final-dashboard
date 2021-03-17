@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export const Container = styled.div`
   background-color: #363740;
   color: #a4a6b3;
-  height: 100vh;
+  min-height: 100vh;
   width: 20%;
   min-width: 200px;
 `
@@ -15,7 +15,6 @@ export const LogoSidebar = styled.div`
     color: #dde2ff;
   }
 `
-
 export const Link = styled(NavLink)`
   color: #ffffff;
   display: flex;

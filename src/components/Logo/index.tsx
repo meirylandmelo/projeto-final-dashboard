@@ -1,12 +1,18 @@
 import * as S from './logo.styles'
 import { ReactComponent as Brand } from '../../images/brand.svg'
 
-const Logo = () => {
+export interface LogoProps {
+  to: string
+}
+
+const Logo = ({ to }: LogoProps) => {
   return (
-    <S.Logo>
-      <Brand />
-      <S.TitleLogo>ADMIN</S.TitleLogo>
-    </S.Logo>
+    <S.LinkRedirect to={to}>
+      <S.Logo>
+        <Brand />
+        <S.TitleLogo>ADMIN</S.TitleLogo>
+      </S.Logo>
+    </S.LinkRedirect>
   )
 }
 
