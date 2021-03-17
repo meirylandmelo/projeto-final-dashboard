@@ -40,7 +40,7 @@ $ yarn start ou npm run start
 - [x] Cadastro de usuário
 - [x] Excluir usuário (apenas para usuários admin)
 
-### Para Logar como administrador
+### Para Logar
 
-- email: helen@facebook.com | senha: 123123
-- email: mauricio@google.com | senha: 123123
+- como administrador (email: helen@facebook.com | senha: 123123)
+- como aeditor (email: mauricio@google.com | senha: 123123)
