@@ -2,7 +2,7 @@
 
 ## Aplicação de dashboard para gerenciar usuários e produtos em diferentes níveis.
 
-### 🎲 Rodando o Back End (servidor)
+### 🎲 Rodando o projeto
 
 ```bash
 # Clone este repositório
@@ -11,16 +11,23 @@ $ git clone <https://github.com/meirylandmelo/projeto-final-dashboard>
 # Acesse a pasta do projeto no terminal/cmd
 $ cd projeto-final-dashboard
 
-# Vá para a pasta server
+# Vá para a pasta backend
 $ cd backend
 
 # Instale as dependências
-$ npm install
+$ yarn install ou npm install
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+# Execute a aplicação
+ json-server db.json -m ./node_modules/json-server-auth -r routes.json --port 4000
 
-# json-server db.json -m ./node_modules/json-server-auth -r routes.json --port 4000
+# Vá para a pasta frontend
+$ cd frontend
+
+# Instale as dependencias
+$ yarn install ou npm install
+
+# Execute a aplicação
+$ yarn start ou npm run start
 ```
 
 ### Features
