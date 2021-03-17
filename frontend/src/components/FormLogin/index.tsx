@@ -23,7 +23,6 @@ const FormLogin = () => {
         type="email"
         placeholder="Digite seu email"
         inputRef={register}
-        defaultValue="helen@facebook.com"
       />
       <S.LabelForm>Senha</S.LabelForm>
       <Input
@@ -32,7 +31,6 @@ const FormLogin = () => {
         type="password"
         placeholder="Digite sua senha"
         inputRef={register}
-        defaultValue="123123"
       />
       <Button action="submit">Acessar</Button>
     </S.ContainerFormLogin>
