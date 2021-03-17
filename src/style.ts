@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
 	body {
 		margin: 0;
 		background-color: #F7F8FC;
-		font-family: Helvetica, sans-serif;
+		font-family: 'Lato', sans-serif;
 		font-size: 1rem;
 		font-weight: 400;
 		line-height: 1.5;
@@ -458,6 +458,22 @@ export const TableBody = styled.tbody`
   vertical-align: inherit;
 `
 
-export const TableData = styled.td``
+export const TableData = styled.td`
+  color: #9fa2b4;
+  vertical-align: middle;
+`
+
+export const TableLink = styled.a`
+  color: #9fa2b4;
+  cursor: pointer;
+
+  &:hover {
+    color: red;
+  }
+`
+
+export const Error = styled.p`
+  color: red;
+`
 
 export default GlobalStyle
